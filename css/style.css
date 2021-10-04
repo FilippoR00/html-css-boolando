@@ -3,3 +3,106 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+body{
+    font-family: 'Roboto', Arial;
+}
+
+.container{
+    width: 75%;
+    margin: auto;
+}
+
+
+.row{
+    width: 100%;
+}
+
+.clearfix{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.items{
+    float: left;
+    width: calc(100% / 3 - 10px);
+    margin: 20px 0px;
+    position: relative;
+}
+
+.origin{
+    width: 100%;
+    object-fit: cover;
+}
+
+.hover{
+    width: 100%;
+    object-fit: cover;
+    display: none;
+}
+
+.center{
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.marca{
+    font-size: 12px;
+}
+
+.nome-item{
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.price span:first-child{
+    color: red;
+    font-size: 12px;
+    font-weight: 700;
+}
+
+.price span:last-child{
+    font-size: 12px;
+    text-decoration: line-through;
+}
+
+.heart{
+    background-color: white;
+    font-size: 25px;
+    padding: 5px 12px;
+    position: absolute;
+    right: 0px;
+    top: 15px;
+}
+
+.sale{
+    background-color: #eb0037;
+    font-size: 11px;
+    font-weight: 600;
+    color: white;
+    padding: 4px;
+    position: absolute;
+    bottom: 80px;
+    left: 0px;
+}
+
+.sostenibilita{
+    background-color: #00875a;
+    font-size: 11px;
+    font-weight: 600;
+    color: white;
+    padding: 4px;
+    position: absolute;
+    bottom: 80px;
+    left: 36px;
+}
+
+
+.items:hover .origin{
+    display: none;
+}
+
+.items:hover .hover{
+    display: block;
+}
