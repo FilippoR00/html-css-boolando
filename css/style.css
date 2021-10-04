@@ -13,7 +13,6 @@ body{
     margin: auto;
 }
 
-
 .row{
     width: 100%;
 }
@@ -82,9 +81,6 @@ body{
     font-weight: 600;
     color: white;
     padding: 4px;
-    position: absolute;
-    bottom: 80px;
-    left: 0px;
 }
 
 .sostenibilita{
@@ -93,6 +89,18 @@ body{
     font-weight: 600;
     color: white;
     padding: 4px;
+    position: absolute;
+    bottom: 80px;
+    left: 36px;
+}
+
+.first{
+    position: absolute;
+    bottom: 80px;
+    left: 0px;
+}
+
+.second{
     position: absolute;
     bottom: 80px;
     left: 36px;
