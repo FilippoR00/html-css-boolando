@@ -33,6 +33,7 @@ body{
 .origin{
     width: 100%;
     object-fit: cover;
+    display: block;
 }
 
 .hover{
@@ -90,8 +91,6 @@ body{
     color: white;
     padding: 4px;
     position: absolute;
-    bottom: 80px;
-    left: 36px;
 }
 
 .first{
